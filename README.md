@@ -59,7 +59,7 @@ La **LSTM optimizada** obtiene el menor error de test (MAE 8.96, RMSE 11.17, MAP
 ```
 ├── Trabajo_Final_Deep_Learning_-_Zaffar_Camila.ipynb   # Notebook con el desarrollo completo
 ├── data/
-│   └── Madrid_database.csv                             # Dataset (no incluido, ver nota arriba)
+│   └── Madrid_database.csv                             # Dataset
 ├── img/
 │   └── Marca-ITBA-Color-ALTA.png                        # Logo institucional
 └── README.md
