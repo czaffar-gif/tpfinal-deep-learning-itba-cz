@@ -54,6 +54,13 @@ MAE promedio en test (horizontes +1 a +7):
 
 La **LSTM optimizada** obtiene el menor error de test (MAE 8.96, RMSE 11.17, MAPE 14.58%), seguida muy de cerca por el Transformer optimizado. La diferencia entre ambas arquitecturas de Deep Learning es marginal, lo que sugiere que, para secuencias cortas (7 rezagos) y un dataset de tamaño acotado, el sesgo inductivo recurrente resulta al menos tan efectivo como la atención completa.
 
+#### Estructura del repositorio
+├── Trabajo_Final_Deep_Learning_-_Zaffar_Camila.ipynb   # Notebook con el desarrollo completo
+├── data/
+│   └── Madrid_database.csv                             # Dataset (no incluido, ver nota arriba)
+├── img/
+│   └── Marca-ITBA-Color-ALTA.png                        # Logo institucional
+└── README.md
 
 
 El notebook está organizado en las siguientes secciones: Introducción, Dataset y Análisis Exploratorio, Preprocesamiento, Entrenamiento de modelos, Optimización de Hiperparámetros, Resultados y Conclusiones.
